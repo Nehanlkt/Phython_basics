@@ -1,17 +1,17 @@
 #built i fn allow to loop over sequence(tuple,list,string) and get index,value of each element in sequence at same time
-a=[2,3,4,5,6]
+marks=[2,3,4,5,6]
 
 index=0
-for i in a:
-    print(i)
+for mark in marks:
+    print(mark)
     if(index==3):
         print("hi,oh") 
     index+=1    
 
 
-a=[2,3,4,5,6]
-for index,i in enumerate(a):#(a,start=index value)
-    print(i)
+marks=[2,3,4,5,6]
+for index,mark in enumerate(marks):#(a,start=index value)
+    print(mark)
     if(index==3):
         print("hi,oh") 
     
