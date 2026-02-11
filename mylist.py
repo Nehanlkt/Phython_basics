@@ -54,3 +54,8 @@ m.extend(n)#add n list to m
 print(m)
 k=l+m
 print(k)#to create new list by add
+fruits=[]
+for i in range(7):
+    fruitsname=input(f"nsme is{i+1}")
+    fruits.append(fruitsname)
+print(fruits)    

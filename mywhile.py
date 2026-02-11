@@ -15,4 +15,5 @@ else:
 #do{
     #loop body;
 #}while(condition);
+num=int(input("enter num"))
      

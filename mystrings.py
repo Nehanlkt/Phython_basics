@@ -42,3 +42,10 @@ print(jam.istitle())#true only if all words frst ltr is capital,here false
 print(jam.startswith("int"))#true here starts with given value
 print(jam.swapcase())#covert up to low case vise versa
 print(jam.title())#capitalise each frst letter of word
+char1=''
+char2='  '
+print(f"without space:hello{char1}world")
+print(f"with space:hello{char2}world")
+a="oh  oh"
+#print(a.find("  "))
+print(a.replace("  "," "))
